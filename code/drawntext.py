@@ -26,3 +26,12 @@ cv.imshow('Rectangle',blank)
 # draw a circle
 cv.circle(blank,(250,250),100,(0,0,255),thickness = 8)
 cv.imshow('Circle',blank)
+
+# draw a line 
+cv.line(blank,(0,0),(500,500),(255,255,255),thickness = 3)
+cv.imshow('lINE',blank)
+
+# put some text 
+cv.putText(blank,'Hello',(225,225),cv.FONT_HERSHEY_TRIPLEX,1.2,(0,255,255),thickness = 1)
+cv.imshow('Text',blank)
+
